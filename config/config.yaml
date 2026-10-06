@@ -1,0 +1,17 @@
+# Runtime parameters — loaded by AgentRegistry, passed as Graph(config=...).
+# Separate from config/agent.yaml (the static manifest).
+
+max_retry: 3
+timeout_s: 30
+
+# carried from the legacy manifest root by migrate_manifest.py
+retrieval:
+  score_threshold: 0.75
+  top_k: 10
+  kb_path: "config/kb/allergen_kb.json"
+  abstain_min_chars: 8
+
+# carried from the legacy manifest root by migrate_manifest.py
+llm:
+  temperature: 0.0
+  max_tokens: 1500

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "kb-mand-001",
+    "allergen_en": "Egg",
+    "allergen_ja": "卵",
+    "tier": "mandatory",
+    "source": "食品表示基準 別表第14 (特定原材料, item 1/9)",
+    "explicit_terms": ["卵", "たまご", "タマゴ", "玉子", "エッグ", "Egg", "egg"],
+    "implicit_hint_terms": ["マヨネーズ", "オムレツ", "かに玉"],
+    "content": "Egg (卵) is one of the 9 mandatory specified raw materials (特定原材料) under the Food Labeling Standards (食品表示基準). Disclosure is required whenever an egg-derived ingredient is present, using the canonical term or a recognised alternative expression (代替表記) such as たまご, タマゴ, 玉子, or エッグ. A processed-food name that conventionally implies egg (e.g. マヨネーズ mayonnaise) without the explicit term present is not a substitute for direct disclosure."
+  },
+  {
+    "id": "kb-mand-002",
+    "allergen_en": "Milk",
+    "allergen_ja": "乳",
+    "tier": "mandatory",
+    "source": "食品表示基準 別表第14 (特定原材料, item 2/9)",
+    "explicit_terms": ["乳", "牛乳", "ミルク", "バター", "チーズ", "生クリーム", "Milk", "milk"],
+    "implicit_hint_terms": ["ホエイ", "カゼイン"],
+    "content": "Milk (乳) is a mandatory specified raw material (特定原材料). Recognised alternative expressions (代替表記) include 牛乳, ミルク, バター, チーズ, and 生クリーム — any of these on the label counts as valid disclosure. Whey (ホエイ) and casein (カゼイン) are common processed derivatives that imply a milk-derived ingredient but are not themselves the registered alternative expressions, so they are treated as an ambiguous (implicit) hint rather than confirmed disclosure."
+  },
+  {
+    "id": "kb-mand-003",
+    "allergen_en": "Wheat",
+    "allergen_ja": "小麦",
+    "tier": "mandatory",
+    "source": "食品表示基準 別表第14 (特定原材料, item 3/9)",
+    "explicit_terms": ["小麦", "こむぎ", "コムギ", "Wheat", "wheat", "小麦粉"],
+    "implicit_hint_terms": ["パン粉"],
+    "content": "Wheat (小麦) is a mandatory specified raw material (特定原材料). Flour-based ingredient names such as 小麦粉 (wheat flour) count as direct, explicit disclosure. A processed-food name such as パン粉 (breadcrumbs) conventionally implies wheat content but is not itself the registered term, so a label carrying only that name is flagged ambiguous pending explicit confirmation."
+  },
+  {
+    "id": "kb-mand-004",
+    "allergen_en": "Buckwheat",
+    "allergen_ja": "そば",
+    "tier": "mandatory",
+    "source": "食品表示基準 別表第14 (特定原材料, item 4/9)",
+    "explicit_terms": ["そば", "ソバ", "蕎麦", "Buckwheat", "buckwheat"],
+    "implicit_hint_terms": [],
+    "content": "Buckwheat (そば) is a mandatory specified raw material (特定原材料) with a historically high rate of severe reactions, including trace cross-contact exposure. Explicit disclosure is required whenever buckwheat or buckwheat flour is used, including in noodle broths and dusting flours."
+  },
+  {
+    "id": "kb-mand-005",
+    "allergen_en": "Peanut",
+    "allergen_ja": "落花生",
+    "tier": "mandatory",
+    "source": "食品表示基準 別表第14 (特定原材料, item 5/9)",
+    "explicit_terms": ["落花生", "ピーナッツ", "Peanut", "peanut", "なんきん豆"],
+    "implicit_hint_terms": ["ピーナッツバター"],
+    "content": "Peanut (落花生) is a mandatory specified raw material (特定原材料); ピーナッツ (peanuts) is the standard recognised alternative expression (代替表記). Disclosure is required for peanut oil, peanut butter, and any peanut-derived flavouring, not only whole nuts."
+  },
+  {
+    "id": "kb-mand-006",
+    "allergen_en": "Shrimp / Prawn",
+    "allergen_ja": "えび",
+    "tier": "mandatory",
+    "source": "食品表示基準 別表第14 (特定原材料, item 6/9)",
+    "explicit_terms": ["えび", "エビ", "海老", "Shrimp", "shrimp", "Prawn", "prawn"],
+    "implicit_hint_terms": ["桜えび"],
+    "content": "Shrimp / prawn (えび) is a mandatory specified raw material (特定原材料). Disclosure is required for shrimp used as a standalone ingredient, a stock/extract base, or a seasoning component (e.g. shrimp paste, dried shrimp)."
+  },
+  {
+    "id": "kb-mand-007",
+    "allergen_en": "Crab",
+    "allergen_ja": "かに",
+    "tier": "mandatory",
+    "source": "食品表示基準 別表第14 (特定原材料, item 7/9)",
+    "explicit_terms": ["かに", "カニ", "蟹", "Crab", "crab"],
+    "implicit_hint_terms": [],
+    "content": "Crab (かに) is a mandatory specified raw material (特定原材料). Disclosure is required whether the crab content is whole meat, extract, or a flavouring derived from crab shells or roe."
+  },
+  {
+    "id": "kb-mand-008",
+    "allergen_en": "Walnut",
+    "allergen_ja": "くるみ",
+    "tier": "mandatory",
+    "source": "食品表示基準 別表第14 (特定原材料, item 8/9 — mandatory since 2023 revision)",
+    "explicit_terms": ["くるみ", "クルミ", "胡桃", "Walnut", "walnut"],
+    "implicit_hint_terms": [],
+    "content": "Walnut (くるみ) became a mandatory specified raw material (特定原材料) in the 2023 revision of the Food Labeling Standards, having previously sat on the recommended list. Disclosure is required for whole, chopped, or ground walnut and for walnut oil."
+  },
+  {
+    "id": "kb-mand-009",
+    "allergen_en": "Cashew Nut",
+    "allergen_ja": "カシューナッツ",
+    "tier": "mandatory",
+    "source": "食品表示基準 別表第14 (特定原材料, item 9/9 — mandatory as of 2026-04-01)",
+    "explicit_terms": ["カシューナッツ", "カシューナツ", "Cashew", "cashew", "Cashew Nut", "cashew nut"],
+    "implicit_hint_terms": [],
+    "content": "Cashew nut (カシューナッツ) moved from the recommended list (特定原材料に準ずるもの) to the mandatory specified-raw-material list (特定原材料) effective 2026-04-01. Labels printed or approved before that date may still reflect the older recommended-only posture — this is exactly the kind of transition a qualified human reviewer should confirm rather than the screening tool asserting compliance on its own."
+  },
+  {
+    "id": "kb-rec-001",
+    "allergen_en": "Soybean",
+    "allergen_ja": "大豆",
+    "tier": "recommended",
+    "source": "食品表示基準 別添 (特定原材料に準ずるもの)",
+    "explicit_terms": ["大豆", "ダイズ", "Soybean", "soybean", "Soy", "soy"],
+    "implicit_hint_terms": ["しょうゆ", "豆腐", "味噌"],
+    "content": "Soybean (大豆) is on the recommended list (特定原材料に準ずるもの) — disclosure is encouraged but not legally mandatory. しょうゆ (soy sauce), 豆腐 (tofu), and 味噌 (miso) conventionally contain soy but are processed-food names, not the explicit term itself, so a match on these alone is treated as ambiguous rather than confirmed disclosure."
+  },
+  {
+    "id": "kb-rec-002",
+    "allergen_en": "Sesame",
+    "allergen_ja": "ごま",
+    "tier": "recommended",
+    "source": "食品表示基準 別添 (特定原材料に準ずるもの)",
+    "explicit_terms": ["ごま", "ゴマ", "胡麻", "Sesame", "sesame"],
+    "implicit_hint_terms": ["ラー油"],
+    "content": "Sesame (ごま) is on the recommended list (特定原材料に準ずるもの). Sesame oil, paste, and seeds should all be disclosed under this term or a clear equivalent; ラー油 (chili sesame oil) is a common implicit carrier, flagged ambiguous when no explicit term co-occurs."
+  },
+  {
+    "id": "kb-rec-003",
+    "allergen_en": "Chicken",
+    "allergen_ja": "鶏肉",
+    "tier": "recommended",
+    "source": "食品表示基準 別添 (特定原材料に準ずるもの)",
+    "explicit_terms": ["鶏肉", "とり肉", "チキン", "Chicken", "chicken"],
+    "implicit_hint_terms": [],
+    "content": "Chicken (鶏肉) is on the recommended list (特定原材料に準ずるもの) — relevant for poultry-protein sensitivity, not a legally mandated disclosure."
+  },
+  {
+    "id": "kb-rec-004",
+    "allergen_en": "Pork",
+    "allergen_ja": "豚肉",
+    "tier": "recommended",
+    "source": "食品表示基準 別添 (特定原材料に準ずるもの)",
+    "explicit_terms": ["豚肉", "ポーク", "Pork", "pork"],
+    "implicit_hint_terms": [],
+    "content": "Pork (豚肉) is on the recommended list (特定原材料に準ずるもの)."
+  },
+  {
+    "id": "kb-rec-005",
+    "allergen_en": "Beef",
+    "allergen_ja": "牛肉",
+    "tier": "recommended",
+    "source": "食品表示基準 別添 (特定原材料に準ずるもの)",
+    "explicit_terms": ["牛肉", "ビーフ", "Beef", "beef"],
+    "implicit_hint_terms": [],
+    "content": "Beef (牛肉) is on the recommended list (特定原材料に準ずるもの)."
+  },
+  {
+    "id": "kb-rec-006",
+    "allergen_en": "Apple",
+    "allergen_ja": "りんご",
+    "tier": "recommended",
+    "source": "食品表示基準 別添 (特定原材料に準ずるもの)",
+    "explicit_terms": ["りんご", "リンゴ", "林檎", "Apple", "apple"],
+    "implicit_hint_terms": [],
+    "content": "Apple (りんご) is on the recommended list (特定原材料に準ずるもの)."
+  },
+  {
+    "id": "kb-rec-007",
+    "allergen_en": "Gelatin",
+    "allergen_ja": "ゼラチン",
+    "tier": "recommended",
+    "source": "食品表示基準 別添 (特定原材料に準ずるもの)",
+    "explicit_terms": ["ゼラチン", "Gelatin", "gelatin", "Gelatine", "gelatine"],
+    "implicit_hint_terms": ["マシュマロ", "グミ"],
+    "content": "Gelatin (ゼラチン) is on the recommended list (特定原材料に準ずるもの). マシュマロ (marshmallow) and グミ (gummy candy) commonly contain gelatin but are processed-food names, flagged ambiguous absent the explicit term."
+  }
+]
